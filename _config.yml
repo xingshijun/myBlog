@@ -81,4 +81,4 @@ deploy:
   type: git
   repo:
     #coding: https://e.coding.net/xingshijun/myBlog.git,master
-    github: https://github.com/xingshijun/xingshijun.github.io.git,master
+    github: git@github.com:xingshijun/xingshijun.github.io.git,master
