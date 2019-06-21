@@ -2,6 +2,7 @@
 title: MySQL安装使用.md
 date: 2019-06-18 11:22:35
 tags: -MySQL
+categories: MySQL
 ---
 ### 1.下载MySQL
 <https://dev.mysql.com/downloads/mysql/>
