@@ -5,6 +5,7 @@ tags: -JavaScript数据类型和数据结构
 categories: JavaScript
 ---
 # 最新的 ECMAScript 标准定义了 7 种数据类型
+<!-- more -->
 ## 原始值：除 Object 以外的所有类型都是不可变的（值本身无法被改变）
 ### 6 种原始类型:
 #### Boolean

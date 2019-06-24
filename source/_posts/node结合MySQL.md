@@ -4,7 +4,8 @@ date: 2019-06-18 11:22:35
 tags: -node -MySQL
 categories: Node
 ---
-### 1.使用node进行数据库操作
+### 使用node进行数据库操作
+<!-- more -->
 ```
 var mysql      = require('mysql');
 var connection = mysql.createConnection({

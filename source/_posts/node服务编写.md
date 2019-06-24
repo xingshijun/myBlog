@@ -5,8 +5,8 @@ tags: -node -express
 categories: Node
 ---
 ### node发送请求
-
-```
+<!-- more -->
+```js
 var request = require('request');
 getData('https://www.baidu.com', {
 		a: '1',
@@ -32,3 +32,34 @@ const getData = (url, param) => {
 	})
 }
 ```
+### node定时任务
+
+1. 安装node-schedule
+
+   `yarn add node-schedule`
+
+2. ```js
+   var schedule = require('node-schedule');
+   function scheduleCronstyle(){//定时任务 每分钟的第30秒执行
+   	schedule.scheduleJob('30 * * * * *',function(){
+   	console.log('scheduleCronstyle:'+new Date());
+   	});
+   }
+   scheduleCronstyle();//开启定时器
+   ```
+
+3. 通配符意义  *  *  *  *  *  *
+
+   6个占位符从左到右分别代表：秒、分、时、日、月、周几
+
+   每分钟的第30秒触发： '30 * * * * *'
+
+   每小时的1分30秒触发 ：'30 1 * * * *'
+
+   每天的凌晨1点1分30秒触发 ：'30 1 1 * * *'
+
+   每月的1日1点1分30秒触发 ：'30 1 1 1 * *'
+
+   2019年的1月1日1点1分30秒触发 ：'30 1 1 1 2019*'
+
+   每周1的1点1分30秒触发 ：'30 1 1 * * 1'
