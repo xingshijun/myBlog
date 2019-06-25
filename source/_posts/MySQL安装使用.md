@@ -1,5 +1,5 @@
 ---
-title: MySQL安装使用.md
+title: MySQL安装使用
 date: 2019-06-18 11:22:35
 tags: -MySQL
 categories: MySQL
@@ -131,3 +131,8 @@ mysql> flush privileges;
     | TIMESTAMP | 4          | 1970-01-01 00:00:00/2037                | YYYYMMDD HHMMSS 混合日期和时间值，时间戳 |
     
 
+### mySQL添加用户可访问数据库
+    ```
+    grant all privileges on database.* to username@'%' identified by 'password';
+    flush privileges;
+    ```

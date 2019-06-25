@@ -1,5 +1,5 @@
 ---
-title: node结合MySQL.md
+title: node结合MySQL
 date: 2019-06-18 11:22:35
 tags: -node -MySQL
 categories: Node

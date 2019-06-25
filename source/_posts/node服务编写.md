@@ -63,3 +63,12 @@ const getData = (url, param) => {
    2019年的1月1日1点1分30秒触发 ：'30 1 1 1 2019*'
 
    每周1的1点1分30秒触发 ：'30 1 1 * * 1'
+   
+### linux后台运行node服务
+    ```
+    npm install -g pm2
+    pm2 start app.js -i max //启动一个使用所有CPU核心的集群 app.js是启动服务的js
+    pm2 list  //列出所有pm2开启的进程
+    pm2 monit //查看运行状态
+    pm2 logs //打印日志
+    ```
