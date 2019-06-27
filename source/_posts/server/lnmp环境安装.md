@@ -1,15 +1,15 @@
 ---
 title: lnmp环境安装
 date: 2019-06-25 11:22:35
-tags: -MySQL
-categories: MySQL
+tags: Lump
+categories: Lump
 ---
 
 ### 安装lnmp
     ```
     wget http://soft.vpser.net/lnmp/lnmp1.6.tar.gz -cO lnmp1.6.tar.gz && tar zxf lnmp1.6.tar.gz && cd lnmp1.6 && ./install.sh lnmp
     ```
-    
+<!-- more -->
     
 ### 安装FTP
     ```

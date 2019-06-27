@@ -1,7 +1,7 @@
 ---
 title: MySQL安装使用
 date: 2019-06-18 11:22:35
-tags: -MySQL
+tags: MySQL
 categories: MySQL
 ---
 ###下载MySQL

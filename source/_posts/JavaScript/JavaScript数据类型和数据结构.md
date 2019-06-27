@@ -1,7 +1,7 @@
 ---
 title: JavaScript数据类型和数据结构
 date: 2019-06-07 21:33:48
-tags: -JavaScript数据类型和数据结构
+tags: JavaScript
 categories: JavaScript
 ---
 # 最新的 ECMAScript 标准定义了 7 种数据类型

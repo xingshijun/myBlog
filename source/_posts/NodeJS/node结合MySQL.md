@@ -1,7 +1,7 @@
 ---
 title: node结合MySQL
 date: 2019-06-18 11:22:35
-tags: -node -MySQL
+tags: node MySQL
 categories: Node
 ---
 ### 使用node进行数据库操作

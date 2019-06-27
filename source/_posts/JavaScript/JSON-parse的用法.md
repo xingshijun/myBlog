@@ -1,14 +1,15 @@
 ---
 title: JSON.parse的用法
 date: 2019-06-26 18:12:39
-tags:
+tags: JavaScript JSON
+categories: JavaScript
 ---
 ### JSON.parse(text[, reviver])
 text  
 要被解析成JavaScript值的字符串，关于JSON的语法格式。
 reviver 可选  
 转换器, 如果传入该参数(函数)，可以用来修改解析生成的原始值，调用时机在parse函数返回之前
-
+<!-- more -->
 #### reviver用法
 ```js
 JSON.parse('{"p": 5}', function (k, v) {
