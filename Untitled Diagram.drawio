@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T10:00:25.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="c-ocJpCfevLfwnrdK3Bu" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T10:02:33.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ie2MY1526tsg_D4o4zvQ" version="14.9.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1154" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -195,10 +195,10 @@
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-126" value="MprCellNodule" style="html=1;" vertex="1" parent="GgmhdhTbTPwPxOHPuyEN-114">
           <mxGeometry x="15" y="225" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-115" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;MainLungContainer&lt;/span&gt;&#xa;&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-115" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;MainLungContainer&lt;br&gt;&lt;/span&gt;矢、冠、横影像图" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1460" y="120" width="120" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-60" value="Cell&lt;br&gt;影像图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GgmhdhTbTPwPxOHPuyEN-115">
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-60" value="Cell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GgmhdhTbTPwPxOHPuyEN-115">
           <mxGeometry x="20" y="170" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-116" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;MainLung&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;肺&lt;/span&gt;&#xa;&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
