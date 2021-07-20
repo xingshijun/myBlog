@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T07:25:16.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="uBvmhVinIei26MvygU-C" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T08:02:11.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="xG0I7aBC_b9cVvOt3yrG" version="14.9.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1024" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1154" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="240" y="80" width="110" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="FilterPlate&lt;br&gt;病例筛选" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="22.5" y="90" width="65" height="50" as="geometry" />
+          <mxGeometry x="22.5" y="90" width="65" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-8" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="110" height="580" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="20" y="20" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="30" y="180" width="10" height="150" as="geometry" />
+          <mxGeometry x="30" y="180" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-5" value="" style="endArrow=none;dashed=1;html=1;" parent="1" source="CF_FWANQ5Wj2ceeT_asj-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,25 +56,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-14" value="PatientCard&lt;br&gt;病例资料卡" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="256.25" y="410" width="77.5" height="55" as="geometry" />
+          <mxGeometry x="256.25" y="385" width="77.5" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="CF_FWANQ5Wj2ceeT_asj-16" value="" style="endArrow=classic;html=1;startArrow=none;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-37" target="CF_FWANQ5Wj2ceeT_asj-18" edge="1">
+        <mxCell id="CF_FWANQ5Wj2ceeT_asj-16" value="ws/app/patient/query" style="endArrow=classic;html=1;startArrow=none;" parent="1" source="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="230" as="sourcePoint" />
-            <mxPoint x="500" y="114.78260869565213" as="targetPoint" />
+            <mxPoint x="390" y="137.3529411764706" as="sourcePoint" />
+            <mxPoint x="550" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CF_FWANQ5Wj2ceeT_asj-17" value="ws/app/patient/query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="370" y="90" width="130" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CF_FWANQ5Wj2ceeT_asj-18" value="后端" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="CF_FWANQ5Wj2ceeT_asj-18" value="webServer" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="515" y="50" width="70" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-1" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-2" target="CF_FWANQ5Wj2ceeT_asj-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="310" as="sourcePoint" />
-            <mxPoint x="480" y="310" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-7" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="650" y="80" width="110" height="580" as="geometry" />
@@ -85,52 +76,30 @@
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-9" value="Main&lt;br&gt;右侧影像" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="250" width="65" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-10" value="选择并获取病例信息" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-32" target="CF_FWANQ5Wj2ceeT_asj-18">
-          <mxGeometry x="-0.1035" y="-22" width="160" relative="1" as="geometry">
-            <mxPoint x="620" y="370" as="sourcePoint" />
-            <mxPoint x="535" y="370" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-2" value="patientWrappers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="333.75" y="230" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-11" value="" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;exitX=-0.043;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-18" target="GgmhdhTbTPwPxOHPuyEN-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="140" as="sourcePoint" />
-            <mxPoint x="333.75" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-13" value="ws/app/propertyapp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="290" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-18" value="" style="endArrow=none;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-14" target="GgmhdhTbTPwPxOHPuyEN-13">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="333.75" y="410" as="sourcePoint" />
-            <mxPoint x="535" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-19" value="loadApp" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-18" target="GgmhdhTbTPwPxOHPuyEN-7">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="450" y="270" as="sourcePoint" />
             <mxPoint x="700" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-20" value="BESocket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="10" width="120" height="80" as="geometry" />
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-20" value="连接BESocket&lt;br&gt;获取影像信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-23" value="后端" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="90" width="70" height="90" as="geometry" />
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-23" value="webServer" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="910" y="110" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-24" value="ws/api/wssurl&lt;br&gt;获取wssurl" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-9" target="GgmhdhTbTPwPxOHPuyEN-23">
-          <mxGeometry width="160" relative="1" as="geometry">
+          <mxGeometry x="0.1996" y="20" width="160" relative="1" as="geometry">
             <mxPoint x="780" y="280" as="sourcePoint" />
             <mxPoint x="610" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="200" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-23" target="GgmhdhTbTPwPxOHPuyEN-9">
-          <mxGeometry x="-0.4437" y="-7" relative="1" as="geometry">
+          <mxGeometry x="-0.5787" y="-5" relative="1" as="geometry">
             <mxPoint x="570" y="260" as="sourcePoint" />
             <mxPoint x="738" y="264" as="targetPoint" />
             <Array as="points">
@@ -139,14 +108,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-27" value="使用wssurl进行连接" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-9" target="GgmhdhTbTPwPxOHPuyEN-20">
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-27" value="使用wssurl进行连接&lt;br&gt;获取对应appName的数据" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-9" target="GgmhdhTbTPwPxOHPuyEN-20">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="720" y="220" as="sourcePoint" />
             <mxPoint x="880" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="120" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-28" value="连接serviceSocket&lt;br&gt;处理socket消息&lt;br&gt;登录信息、错误信息等" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="425" width="150" height="80" as="geometry" />
+          <mxGeometry x="75" y="510" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-29" value="MainLung&lt;br&gt;肺" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="835" y="250" width="65" height="50" as="geometry" />
@@ -160,24 +132,6 @@
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-31" value="加载子组件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GgmhdhTbTPwPxOHPuyEN-30">
           <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
             <mxPoint x="11" y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-32" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="458" y="230" width="15" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-33" value="" style="endArrow=none;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-13" target="GgmhdhTbTPwPxOHPuyEN-32">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="440" y="290" as="sourcePoint" />
-            <mxPoint x="550" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-37" value="输入或选择条件" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="120" width="20" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-38" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="GgmhdhTbTPwPxOHPuyEN-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="327.5" y="170" as="sourcePoint" />
-            <mxPoint x="515" y="108.72549019607845" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-51" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1" target="GgmhdhTbTPwPxOHPuyEN-29">
@@ -224,6 +178,45 @@
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-60" value="Cell&lt;br&gt;影像图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="375" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-61" value="获取影像Buffer" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-20" target="GgmhdhTbTPwPxOHPuyEN-57">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1040" y="100" as="sourcePoint" />
+            <mxPoint x="610" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-62" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-63" value="socket消息处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-65" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1" target="CF_FWANQ5Wj2ceeT_asj-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="551" y="540" as="sourcePoint" />
+            <mxPoint x="560" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-68" value="patientWrappers&lt;br&gt;病例信息" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" target="7baba1c4bc27f4b0-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="550" y="220" as="sourcePoint" />
+            <mxPoint x="500" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-70" value="选择并获取病例信息" style="endArrow=classic;html=1;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-2">
+          <mxGeometry x="-0.7647" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="550" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-71" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;ws/app/propertyapp&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GgmhdhTbTPwPxOHPuyEN-70">
+          <mxGeometry x="0.4392" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
