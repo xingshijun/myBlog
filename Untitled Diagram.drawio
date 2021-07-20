@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T07:05:26.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="1G5wUKrTqZ8Ge3CihL58" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T07:16:44.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="jysnRo4y4BEpejsHV4UZ" version="14.9.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1024" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -58,14 +58,14 @@
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-14" value="PatientCard&lt;br&gt;病例资料卡" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="256.25" y="410" width="77.5" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="CF_FWANQ5Wj2ceeT_asj-16" value="" style="endArrow=classic;html=1;" parent="1" source="7baba1c4bc27f4b0-10" target="CF_FWANQ5Wj2ceeT_asj-18" edge="1">
+        <mxCell id="CF_FWANQ5Wj2ceeT_asj-16" value="" style="endArrow=classic;html=1;startArrow=none;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-37" target="CF_FWANQ5Wj2ceeT_asj-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="230" as="sourcePoint" />
             <mxPoint x="500" y="114.78260869565213" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-17" value="ws/app/patient/query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="120" width="130" height="20" as="geometry" />
+          <mxGeometry x="370" y="90" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CF_FWANQ5Wj2ceeT_asj-18" value="后端" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="515" y="50" width="70" height="90" as="geometry" />
@@ -85,13 +85,11 @@
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-9" value="Main&lt;br&gt;右侧影像" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="250" width="65" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-10" value="选择并获取病例信息" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-13" target="CF_FWANQ5Wj2ceeT_asj-18">
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-10" value="选择并获取病例信息" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-32" target="CF_FWANQ5Wj2ceeT_asj-18">
           <mxGeometry x="-0.1035" y="-22" width="160" relative="1" as="geometry">
             <mxPoint x="620" y="370" as="sourcePoint" />
             <mxPoint x="535" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="440" y="290" />
-            </Array>
+            <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -108,11 +106,9 @@
           <mxGeometry x="370" y="290" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-18" value="" style="endArrow=none;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-14" target="GgmhdhTbTPwPxOHPuyEN-13">
-          <mxGeometry x="-0.2049" y="-5" width="160" relative="1" as="geometry">
+          <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="333.75" y="410" as="sourcePoint" />
             <mxPoint x="535" y="170" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-19" value="loadApp" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CF_FWANQ5Wj2ceeT_asj-18" target="GgmhdhTbTPwPxOHPuyEN-7">
@@ -152,7 +148,7 @@
           <mxGeometry x="80" y="425" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-29" value="MainLung&lt;br&gt;肺" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="930" y="250" width="65" height="50" as="geometry" />
+          <mxGeometry x="895" y="250" width="65" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-9" target="GgmhdhTbTPwPxOHPuyEN-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -164,6 +160,51 @@
           <mxGeometry x="-0.1429" y="-1" relative="1" as="geometry">
             <mxPoint x="11" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-32" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="230" width="15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-33" value="" style="endArrow=none;endSize=12;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-13" target="GgmhdhTbTPwPxOHPuyEN-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="sourcePoint" />
+            <mxPoint x="550" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-37" value="输入或选择条件" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-38" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="GgmhdhTbTPwPxOHPuyEN-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327.5" y="170" as="sourcePoint" />
+            <mxPoint x="515" y="108.72549019607845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-51" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1" target="GgmhdhTbTPwPxOHPuyEN-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="931" y="355" as="sourcePoint" />
+            <mxPoint x="931" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-46" value="MainLungNodule&lt;br&gt;肺结节" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="355" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-52" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="931" y="435" as="sourcePoint" />
+            <mxPoint x="931" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-47" value="MainLungPneumonia&lt;br&gt;骨折" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="435" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-53" value="" style="endArrow=none;dashed=1;html=1;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="931" y="515" as="sourcePoint" />
+            <mxPoint x="931" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-48" value="MainLungFracture&lt;br&gt;炎症" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="515" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
