@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T06:03:33.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="HMC339SBcV7x9WAjuWo2" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:16:01.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="pe4vgKrNFIFtPxn3o2pI" version="14.9.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1154" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -56,19 +56,13 @@
             <mxPoint x="774" y="390" as="sourcePoint" />
             <mxPoint x="923.99" y="210" as="targetPoint" />
             <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="900" y="310" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-24" value="wssurl" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-118" target="GgmhdhTbTPwPxOHPuyEN-9" edge="1">
-          <mxGeometry x="0.0204" width="160" relative="1" as="geometry">
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-24" value="wssurl" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.023;entryY=0.873;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-118" target="GgmhdhTbTPwPxOHPuyEN-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="773.99" y="290" as="sourcePoint" />
             <mxPoint x="833.99" y="240" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="870" y="250" />
-            </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-27" value="使用wssurl进行连接&lt;br&gt;BESocket" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-7" target="GgmhdhTbTPwPxOHPuyEN-117" edge="1">
