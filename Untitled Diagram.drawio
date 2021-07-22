@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T08:56:40.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="QRwgMnSlTqczENuCmUAH" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T09:08:49.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="v2FyY1ON-CQS3ox3C5ox" version="14.9.1" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1649" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -62,16 +62,6 @@
             <mxPoint x="41" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-58" value="extends" style="endArrow=classic;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-116" target="GgmhdhTbTPwPxOHPuyEN-115" edge="1">
-          <mxGeometry x="0.005" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1209.3235294117649" y="879.9999999999998" as="sourcePoint" />
-            <mxPoint x="1360" y="880" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1230" y="670" />
-            </Array>
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-68" value="patientWrappers&lt;br&gt;病例信息列表" style="endArrow=open;endSize=12;dashed=1;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-118" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="770" y="308" as="sourcePoint" />
@@ -113,19 +103,19 @@
           <mxGeometry x="1390" y="120" width="140" height="840" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-126" value="MprCellNodule&lt;br&gt;MprCellPneumonia&lt;br&gt;MprCellFracture" style="html=1;" parent="GgmhdhTbTPwPxOHPuyEN-114" vertex="1">
-          <mxGeometry x="15" y="420" width="110" height="90" as="geometry" />
+          <mxGeometry x="15" y="420" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-115" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;MainLungContainer&lt;br&gt;&lt;/span&gt;矢、冠、横影像图" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="120" width="120" height="840" as="geometry" />
+          <mxGeometry x="1240" y="120" width="120" height="840" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-60" value="Cell" style="rounded=0;whiteSpace=wrap;html=1;" parent="GgmhdhTbTPwPxOHPuyEN-115" vertex="1">
-          <mxGeometry x="20" y="570" width="80" height="35" as="geometry" />
+          <mxGeometry x="20" y="530" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-116" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;MainLung&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: verdana; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;肺&lt;/span&gt;&#xa;&#xa;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1060" y="120" width="130" height="840" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-46" value="MainLungNodule&lt;br&gt;肺结节&lt;br&gt;MainLungPneumonia&lt;br&gt;骨折&lt;br&gt;MainLungFracture&lt;br&gt;炎症" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="GgmhdhTbTPwPxOHPuyEN-116" vertex="1">
-          <mxGeometry x="-20" y="420" width="150" height="90" as="geometry" />
+          <mxGeometry x="-20" y="420" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-118" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;webServer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="120" width="100" height="840" as="geometry" />
@@ -145,14 +135,14 @@
         <mxCell id="GgmhdhTbTPwPxOHPuyEN-122" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="10" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GgmhdhTbTPwPxOHPuyEN-134" value="extends" style="endArrow=classic;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-114" target="GgmhdhTbTPwPxOHPuyEN-115" edge="1">
-          <mxGeometry x="0.005" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1589.4999999999995" y="979.9999999999998" as="sourcePoint" />
-            <mxPoint x="1399.3235294117649" y="979.9999999999998" as="targetPoint" />
+        <mxCell id="GgmhdhTbTPwPxOHPuyEN-134" value="extends" style="endArrow=classic;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-126" target="GgmhdhTbTPwPxOHPuyEN-115" edge="1">
+          <mxGeometry x="-0.0526" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1406" y="628" as="sourcePoint" />
+            <mxPoint x="1330" y="626" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1390" y="670" />
+              <mxPoint x="1405" y="630" />
             </Array>
-            <mxPoint x="1" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Kke3WG4U_u_RpBX2Esor-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;" parent="1" source="GgmhdhTbTPwPxOHPuyEN-116" target="GgmhdhTbTPwPxOHPuyEN-119" edge="1">
@@ -299,6 +289,15 @@
         </mxCell>
         <mxCell id="Hi-bZSsl9oH-y0NhNikU-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="40" y="220" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hi-bZSsl9oH-y0NhNikU-19" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;extends&lt;/span&gt;" style="endArrow=classic;html=1;" edge="1" parent="1" source="GgmhdhTbTPwPxOHPuyEN-46" target="GgmhdhTbTPwPxOHPuyEN-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="470" as="sourcePoint" />
+            <mxPoint x="970" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="570" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
